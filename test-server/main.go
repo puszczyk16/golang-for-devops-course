@@ -189,7 +189,7 @@ func getRandomSecret() []byte {
 }
 
 func main() {
-	port := "8080"
+	port := "8888"
 	testListener, err := net.Listen("tcp", ":"+port)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "Can't start server on port %q: %s\n", port, err)
